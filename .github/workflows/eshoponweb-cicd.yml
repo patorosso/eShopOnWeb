@@ -8,7 +8,7 @@ env:
   RESOURCE-GROUP: rg-az400-eshoponweb-pato
   LOCATION: brazilsouth
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
-  SUBSCRIPTION-ID: d860422b-f091-459d-8ea3-dcd47f729ec7
+  SUBSCRIPTION-ID: ${{ secrets.AZURE_CREDENTIALS }}
   WEBAPP-NAME: az400-webapp-pato
 
 
